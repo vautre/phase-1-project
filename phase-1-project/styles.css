@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Monaco, Monospace;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header {
+    min-height: 100vh;      /* ADD SPACE ON TOP */
+}
+
+/*-------text-box css-------*/
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-box h1 {      /* INCREASE TEXT SIZE */
+    font-size: 60px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff
+}
+
+/*-------biomes-------*/
+.biomes {
+    width:80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+body {
+    text-align: center;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#biome-list{
+    margin: 5%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(3, 1fr);   /* 3 equal-width columns */
+    gap: 100px; 
+/*------BORDER-RELATED------*/
+    border-radius: 0px;
+    box-sizing: border-box;
+    padding: 40px 200px;        /* MADE BORDER STRETCH ACROSS THE SCREEN */
+    flex-basis: 31%;
+    background: #fff3f3;
+}
+
+#biome-list img{
+    /* flex: 0 1 auto; */
+    height: 150px;
+    width: 250px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
+/*BACKGROUND IMAGE   */
+#background-image {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("assets/cherry-background.jpg"); 
+    background-size: cover;          /* ENSURES IMG COVERS ENTIRE AREA */
+    Z-index: -1;             /* SEND IT BEHIND THE OTHER CONTENT  */
+    position: fixed;
+    top: 0;
+    left: 0;
+    filter: opacity(0.5);
+}

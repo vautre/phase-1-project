@@ -1,0 +1,52 @@
+{
+    "biomes": [
+      {
+        "id": 1,
+        "name": "Cherry Grove",
+        "image": "assets/biomes/cherry-grove.png",
+        "description": "Cherry grove is a overworld mountain biome filled with flowering pink cherry trees. The leaves drop petal particles. Bee nests with bees generate somewhat commonly on the side of the cherry trees.",
+        "features": "Unqiue wood types and flower, multi-purpose fallen leaves,",
+        "blocks": "cherry leaves, cherry logs, pink petals, cherry saplings"
+      }, 
+      {
+        "id": 2,
+        "name": "Lush Cave",
+        "image": "assets/biomes/lush-cave.jpg",
+        "description": "Lush cave is a overworld cave biome that is found underground, azalea trees are usually used as idenifiers to locate a lush cave.",
+        "features": "Lush caves are usually filled with glow berries, vines, and cave vines that hangs from the ceiling.",
+        "blocks": "glow berries, dripleaf, azalea leaves, rooted dirt, hanging roots, spore blossom, cave vines, moss"
+      },
+      {
+        "id": 3,
+        "name": "Snowy Plains",
+        "image": "assets/biomes/snowy-plains.avif",
+        "description": "Snowy plains is a overworld plains field covered in snow. ",
+        "features": "water freezes and becomes ice. You can find polar bears, strays, and igloos in this biome",
+        "blocks": "Snow, Ice"
+      },
+      {
+        "id": 4,
+        "name": "Crimson Forest",
+        "image": "assets/biomes/crimson-forest.avif",
+        "description": "fCrimson forest is a forested biome in the Nether world that is covered with lava seas",
+        "features": "Crimson color scheme, dark red fog with blazing particles. This biome spawns unqiue nether world mobs such as piglin, hoglin, strider, ghast.",
+        "blocks": "Crimson nylium, crimson stem, shroomlight, crimson roots, crimson fungus, weeping vines"
+      },
+      {
+        "id": 5,
+        "name": "Warped Forest",
+        "image": "assets/biomes/warped-forest.jpeg",
+        "description": "Warped forest is a biome found in the Nether. The warped forest is dense and has a cyan color scheme, particles are deep blue ton, the floor composes mostly of warped nylium.",
+        "features": "Enderman commonly spawn here, hostile mobs do not spawn naturally. Huge warped fungus can be found here, along with glowstone blobs.",
+        "blocks": "Warped nylium, warped stem, warped wart block, shroomlight, warped roots, twisting vines, nether sprouts"
+      },
+      {
+        "id": 6,
+        "name": "The End",
+        "image": "assets/biomes/the-end.jpg",
+        "description": "The end is a dimentsion in minecraft that is considered to be the end of game. When you reach this point, you are usually fully geared and is ready to beat the game by facing the ender dragon. This dimension consists of separate islands in the void that are made out of end stones.",
+        "features": "After defeating the ender dragon, you unlock a new dimension inside the end where you get access to the home inhabited by endermen and shulkers, ",
+        "blocks": "1End stone, obsidian."
+      }
+    ]
+  }
